@@ -1,5 +1,5 @@
 {
-  "name": "food-pantry-check-in",
+  "name": "test-authenticated-endpoints-example",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:5000",
@@ -16,6 +16,12 @@
     "supertest": "^4.0.2",
     "url": "^0.11.0"
   },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
   "scripts": {
     "start": "node server/start.js",
     "build": "react-scripts build",
