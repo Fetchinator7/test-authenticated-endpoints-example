@@ -1,0 +1,25 @@
+{
+  "name": "food-pantry-check-in",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-session": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^26.4.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pg": "^8.3.2",
+    "supertest": "^4.0.2",
+    "url": "^0.11.0"
+  },
+  "scripts": {
+    "start": "node server/start.js",
+    "build": "react-scripts build",
+    "test": "jest --detectOpenHandles --forceExit",
+    "eject": "react-scripts eject"
+  }
+}
