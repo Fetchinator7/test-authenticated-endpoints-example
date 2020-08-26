@@ -1,4 +1,4 @@
--- Run these commands to initialize the database after creating a database.
+-- Run these commands to populate the test database after creating one.
 
 CREATE TABLE "account"
 (
