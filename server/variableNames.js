@@ -7,21 +7,23 @@ const databaseTables = {
 module.exports = {
   ...databaseTables,
   // You could include multiple account objects here.
-  adminUser: {
-    id: 1,
-    adminName: 'ExampleName',
-    adminUsername: 'ExampleUsername',
-    adminEmail: 'email@email.com',
-    adminPassword: 'Password',
-    adminAccessLevel: '1'
-  },
-  testUser: {
-    id: 1,
-    testUserName: 'testUser',
-    testUserUsername: 'TestUsername',
-    testUserEmail: 'test@email.com',
-    testUserPassword: 'Password',
-    testUserAccessLevel: '0'
+  testUsers: {
+    adminUser: {
+      id: 1,
+      adminName: 'ExampleName',
+      adminUsername: 'ExampleUsername',
+      adminEmail: 'email@email.com',
+      adminPassword: 'Password',
+      adminAccessLevel: '1'
+    },
+    testUser: {
+      id: 2,
+      testUserName: 'testUser',
+      testUserUsername: 'TestUsername',
+      testUserEmail: 'test@email.com',
+      testUserPassword: 'Password',
+      testUserAccessLevel: '0'
+    }
   },
   databaseColumns: {
     account: {

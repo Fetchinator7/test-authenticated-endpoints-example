@@ -5,22 +5,20 @@ const accountTableColumns = variableNames.databaseColumns.account;
 const accountRoutes = variableNames.routes.accountRouter;
 
 const adminUser = request.agent(app);
-const adminInfo = variableNames.adminUser;
-const adminName = adminInfo.adminName;
-const adminUsername = adminInfo.adminUsername;
-const adminEmail = adminInfo.adminEmail;
-const adminPassword = adminInfo.adminPassword;
-const adminAccessLevel = adminInfo.adminAccessLevel;
-const adminID = 1;
+const adminID = variableNames.testUsers.adminUser.id;
+const adminName = variableNames.testUsers.adminUser.adminName;
+const adminUsername = variableNames.testUsers.adminUser.adminUsername;
+const adminEmail = variableNames.testUsers.adminUser.adminEmail;
+const adminPassword = variableNames.testUsers.adminUser.adminPassword;
+const adminAccessLevel = variableNames.testUsers.adminUser.adminAccessLevel;
 
 const testUser = request.agent(app);
-const testUserInfo = variableNames.testUser;
-const testUserName = testUserInfo.testUserName;
-const testUserUsername = testUserInfo.testUserUsername;
-const testUserEmail = testUserInfo.testUserEmail;
-const testUserPassword = testUserInfo.testUserPassword;
-const testUserAccessLevel = testUserInfo.testUserAccessLevel;
-const testUserID = 2;
+const testUserID = variableNames.testUsers.testUser.id;
+const testUserName = variableNames.testUsers.testUser.testUserName;
+const testUserUsername = variableNames.testUsers.testUser.testUserUsername;
+const testUserEmail = variableNames.testUsers.testUser.testUserEmail;
+const testUserPassword = variableNames.testUsers.testUser.testUserPassword;
+const testUserAccessLevel = variableNames.testUsers.testUser.testUserAccessLevel;
 
 const id = accountTableColumns.id;
 const name = accountTableColumns.name;
