@@ -1,9 +1,5 @@
 # This is the repo for my [Javascript Authenticated Tests Gist](https://gist.github.com/Fetchinator7/7774ea181a56b79636d311066cca0877)
 
-[![Hit Count](http://hits.dwyl.com/Fetchinator7/test-authenticated-endpoints-example.svg)](http://hits.dwyl.com/Fetchinator7/test-authenticated-endpoints-example)
-
-![Tests](https://github.com/Fetchinator7/test-authenticated-endpoints-example/workflows/tests/badge.svg)
-
 ## Notes
 
 This needs to be hooked up to a remote database to run the tests on GitHub by adding a DATABASE_URL as a [secret](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets) to the repo and injecting that into the env of the GitHib test. For this example it's merely a simple database setup on [Heroku](https://www.heroku.com/) but the host can of course be changed.
